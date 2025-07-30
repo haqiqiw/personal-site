@@ -11,6 +11,10 @@ type Props = {
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
 
+const META_DEFAULT_TITLE = "Haqqi | Software Engineer";
+const META_DEFAULT_DESCRIPTION =
+  "Software Engineer with over 7 years of experience in building scalable applications. Explore Haqqi's work, side projects, and professional journey.";
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -28,25 +32,25 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "Haqqi",
+    default: META_DEFAULT_TITLE,
     template: `%s | Haqqi`,
   },
-  description:
-    "Meet Haqqi, a Jakarta-based Software Engineer with over 7 years of experience in building scalable applications. Explore his work, side projects, and professional journey.",
+  description: META_DEFAULT_DESCRIPTION,
   metadataBase: new URL(BASE_URL),
   authors: [
     {
       name: "Haqqi",
-      url: BASE_URL,
+      url: new URL(BASE_URL),
     },
   ],
   keywords: [
     "Haqqi",
-    "Portofolio",
     "Software Engineer",
     "Android Developer",
     "Backend Engineer",
     "Full-stack Developer",
+    "Personal Website",
+    "Portofolio",
   ],
   icons: {
     icon: "/favicon.ico",
@@ -54,6 +58,27 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   manifest: "/site.webmanifest",
+  openGraph: {
+    title: META_DEFAULT_TITLE,
+    description: META_DEFAULT_DESCRIPTION,
+    siteName: "Haqqi's Personal Website",
+    url: new URL(BASE_URL),
+    images: [
+      {
+        url: "https://avatars.githubusercontent.com/u/6845983",
+        width: 460,
+        height: 460,
+        alt: META_DEFAULT_TITLE,
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: META_DEFAULT_TITLE,
+    description: META_DEFAULT_DESCRIPTION,
+    images: ["https://avatars.githubusercontent.com/u/6845983"],
+  },
 };
 
 const RootLayout: React.FC<Props> = ({ children }) => {
