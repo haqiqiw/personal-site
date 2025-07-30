@@ -53,14 +53,14 @@ const Introduction: React.FC = () => {
 
       <div className="flex items-center justify-between">
         <SocialMedia />
-        <a
+        {/* <a
           href="/resume-haqqi.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="px-4 py-2 text-sm font-medium transition-colors rounded-full bg-zinc-100 text-zinc-900 hover:bg-zinc-200 dark:bg-zinc-700 dark:text-zinc-100 dark:hover:bg-zinc-600"
         >
           View Resume
-        </a>
+        </a> */}
       </div>
     </section>
   );
