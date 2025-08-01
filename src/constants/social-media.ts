@@ -10,11 +10,11 @@ const SocialMediaList: SocialMediaType[] = [
   },
   {
     name: "linkedin",
-    link: "https://www.linkedin.com/in/haqiqiw",
+    link: "https://bit.ly/haqiqiw-linkedin",
   },
   {
     name: "github",
-    link: "https://github.com/haqiqiw",
+    link: "https://bit.ly/haqiqiw-github",
   },
 ];
 
