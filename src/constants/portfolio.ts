@@ -36,6 +36,18 @@ const PortfolioList: PortfolioType[] = [
     ],
   },
   {
+    title: "Mitra Loyalty Scheme Experiment",
+    description:
+      "A/B test to measure the impact of different loyalty schemes on user behavior. I developed the system that assigned users to various alternatives (e.g., Normal, Variant 1, Variant 2), each with a unique reward calculation logic.",
+    link: "https://play.google.com/store/apps/details?id=com.bukalapak.mitra&hl=id",
+    roles: ["Backend"],
+    images: [
+      "/loyalty-scheme-1.webp",
+      "/loyalty-scheme-2.webp",
+      "/loyalty-scheme-3.webp",
+    ],
+  },
+  {
     title: "Mitra Rewarded Ads",
     description:
       "A gamification feature to increase user engagement. I built the system for users to watch ads for points and implemented a rate-limiting mechanism to prevent abuse.",
@@ -70,18 +82,6 @@ const PortfolioList: PortfolioType[] = [
       "/account-security-1.webp",
       "/account-security-2.webp",
       "/account-security-3.webp",
-    ],
-  },
-  {
-    title: "Mitra Loyalty Scheme Experiment",
-    description:
-      "A/B test to measure the impact of different loyalty schemes on user behavior. I developed the system that assigned users to various alternatives (e.g., Normal, Variant 1, Variant 2), each with a unique reward calculation logic.",
-    link: "https://play.google.com/store/apps/details?id=com.bukalapak.mitra&hl=id",
-    roles: ["Backend"],
-    images: [
-      "/loyalty-scheme-1.webp",
-      "/loyalty-scheme-2.webp",
-      "/loyalty-scheme-3.webp",
     ],
   },
 ];
