@@ -84,7 +84,6 @@ const PortfolioList: PortfolioType[] = [
       "/loyalty-scheme-3.webp",
     ],
   },
-  ,
   {
     title: "Bukalapak Marketplace",
     description:
