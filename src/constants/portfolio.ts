@@ -11,7 +11,7 @@ const PortfolioList: PortfolioType[] = [
     title: "Mitra Branch",
     description:
       "A feature that allow owners to connect and manage their branch accounts. The system I built including account management, transaction history, and balance transfers, with premium features unlocked via subscription.",
-    link: "https://play.google.com/store/apps/details?id=com.bukalapak.mitra&hl=id",
+    link: "https://play.google.com/store/apps/details?id=com.bukalapak.mitra",
     roles: ["Backend", "Frontend", "Android"],
     images: [
       "/mitra-branch-1.webp",
@@ -36,22 +36,10 @@ const PortfolioList: PortfolioType[] = [
     ],
   },
   {
-    title: "Mitra Loyalty Scheme Experiment",
-    description:
-      "A/B test to measure the impact of different loyalty schemes on user behavior. I developed the system that assigned users to various alternatives (e.g., Normal, Variant 1, Variant 2), each with a unique reward calculation logic.",
-    link: "https://play.google.com/store/apps/details?id=com.bukalapak.mitra&hl=id",
-    roles: ["Backend"],
-    images: [
-      "/loyalty-scheme-1.webp",
-      "/loyalty-scheme-2.webp",
-      "/loyalty-scheme-3.webp",
-    ],
-  },
-  {
     title: "Mitra Rewarded Ads",
     description:
       "A gamification feature to increase user engagement. I built the system for users to watch ads for points and implemented a rate-limiting mechanism to prevent abuse.",
-    link: "https://play.google.com/store/apps/details?id=com.bukalapak.mitra&hl=id",
+    link: "https://play.google.com/store/apps/details?id=com.bukalapak.mitra",
     roles: ["Backend", "Android"],
     images: [
       "/rewarded-ads-1.webp",
@@ -64,7 +52,7 @@ const PortfolioList: PortfolioType[] = [
     title: "Mitra Game Voucher Landing Revamp",
     description:
       "Revamped the page to improve user experience and product discovery. Key enhancements included a reorganized product layout, dynamic category filters, and promotional banners.",
-    link: "https://play.google.com/store/apps/details?id=com.bukalapak.mitra&hl=id",
+    link: "https://play.google.com/store/apps/details?id=com.bukalapak.mitra",
     roles: ["Android"],
     images: [
       "/game-voucher-1.webp",
@@ -76,12 +64,42 @@ const PortfolioList: PortfolioType[] = [
     title: "Mitra Account Security Enhancement",
     description:
       "Redesigning the page and implementing new features, including suspicious phone number checker, login activity logs, and the ability to remotely log out from all devices.",
-    link: "https://play.google.com/store/apps/details?id=com.bukalapak.mitra&hl=id",
+    link: "https://play.google.com/store/apps/details?id=com.bukalapak.mitra",
     roles: ["Android"],
     images: [
       "/account-security-1.webp",
       "/account-security-2.webp",
       "/account-security-3.webp",
+    ],
+  },
+  {
+    title: "Mitra Loyalty Scheme Experiment",
+    description:
+      "A/B test to measure the impact of different loyalty schemes on user behavior. I developed the system that assigned users to various alternatives (e.g., Normal, Variant 1, Variant 2), each with a unique reward calculation logic.",
+    link: "https://play.google.com/store/apps/details?id=com.bukalapak.mitra",
+    roles: ["Backend"],
+    images: [
+      "/loyalty-scheme-1.webp",
+      "/loyalty-scheme-2.webp",
+      "/loyalty-scheme-3.webp",
+    ],
+  },
+  ,
+  {
+    title: "Bukalapak Marketplace",
+    description:
+      "Revamped the UI/UX for several pages in shopping flow, such as Product Detail, Variant, Reviews, Transaction, while also improving the app's perfomance.",
+    link: "https://play.google.com/store/apps/details?id=com.bukalapak.android",
+    roles: ["Android"],
+    images: [
+      "mp-product-detail.webp",
+      "mp-product-variant.webp",
+      "mp-product-review.webp",
+      "mp-delivery-confirmation.webp",
+      "mp-review-form.webp",
+      "mp-invoice-detail.webp",
+      "mp-transaction-detail.webp",
+      "mp-cart.webp",
     ],
   },
 ];
