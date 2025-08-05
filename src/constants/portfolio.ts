@@ -98,7 +98,6 @@ const PortfolioList: PortfolioType[] = [
       "mp-review-form.webp",
       "mp-invoice-detail.webp",
       "mp-transaction-detail.webp",
-      "mp-cart.webp",
     ],
   },
 ];
