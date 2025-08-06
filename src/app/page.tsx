@@ -13,7 +13,7 @@ export default function Home() {
     <main className="text-zinc-900 dark:text-zinc-100 max-w-xl mx-auto px-4 py-4 min-h-svh flex flex-col justify-between">
       <div>
         <Introduction />
-        <Tabs defaultValue="experience">
+        <Tabs defaultValue="portfolio">
           <TabsOptions />
           <TabsExperience />
           <TabsPortfolio />
